@@ -1,0 +1,102 @@
+/*universal coding*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*common class */
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 300px;
+      margin: 20px auto;
+    }
+
+    .append-buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .append-buttons button {
+      display: inline-block;
+      cursor: pointer;
+      border: 1px solid #007aff;
+      color: #007aff;
+      text-decoration: none;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin: 0 10px;
+      font-size: 13px;
+    }
+    .slider{
+        background:linear-gradient(rgba(25,129,219,0.5)),url(../background\ img.png) no-repeat;
+        height: 250px;
+        background-size: cover;
+        position: relative;
+        
+    }
+    .myswiper{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .slider-child{
+        
+        text-align: center;
+        color: white;
+    }
+    h2,.heading-2{
+        font-size: 50px ;
+        font-weight: 600;
+        line-height: 1.2;
+        margin: 0 0 18px;
+    }
+    p{
+          font-size: 16px ;
+        font-weight: 100;
+        line-height: 1.2;
+        margin: 0 0 47px;
+
+    }
+    .swiper-slide figure img{
+        width: 262px;
+    }
